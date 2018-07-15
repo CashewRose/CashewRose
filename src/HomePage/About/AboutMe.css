@@ -1,0 +1,11 @@
+.AboutSection {
+    display: inline;
+}
+
+h2 {
+    text-align: center
+}
+
+.AboutSection p{
+    margin: 20px 30px
+}

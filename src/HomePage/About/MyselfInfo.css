@@ -1,0 +1,39 @@
+div.AboutCard {
+    width: 300px;
+    padding-left: 30px;
+    float: right;
+    padding: 30px 20px 10px 30px;
+    font-family: fantasy
+}
+
+img.me {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+a {
+    display: inline-block;
+}
+a.contact{
+    padding: 10px 7.5px 0px 7.5px
+}
+
+a:visited {
+    color: 	palevioletred
+}
+
+a {
+    color: black
+}
+
+div.Contain {
+    clear:both;
+    overflow:hidden;
+    background-color: azure;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 20px;
+}
