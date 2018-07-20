@@ -33,7 +33,7 @@ componentDidMount() {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" id="Top">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title" id="typewriter">{}</h1>

@@ -32,8 +32,11 @@ a {
 div.Contain {
     clear:both;
     overflow:hidden;
-    background-color: azure;
     font-family: cursive;
     font-weight: 900;
     font-size: 20px;
+}
+
+body {
+    background-color: azure;
 }
