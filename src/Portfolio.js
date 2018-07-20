@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 
 
 class Portfolio extends Component {
-  
+
     render() {
       return (
-        <div>
+        <React.Fragment>
             <h1>Portfolio</h1>
-        </div>
-        
+              <div>
+                <h2>Ghibli Chronicles</h2>
+              </div>
+        </React.Fragment>
       );
     }
   }

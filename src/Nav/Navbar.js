@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'
+import Resume from '.././Technical_Resume_PDF.pdf';
 
 class NavBar extends Component {
     render() {
@@ -8,7 +9,7 @@ class NavBar extends Component {
             <nav className="navbar">
                 <Link to="/">Home</Link>
                 <Link to="/Portfolio">Portfolio</Link>
-                <Link to="/Resume">Resume</Link>
+                <a href={Resume} target="_blank">Resume</a>
             </nav>
         );
     }

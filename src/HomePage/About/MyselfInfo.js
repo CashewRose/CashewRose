@@ -14,7 +14,7 @@ class SelfCard extends Component {
                     <img className="me" src={image}></img>
                     <a className="contact" href="https://github.com/CashewRose/">
                         <FontAwesomeIcon icon={faGithubAlt} /> Github</a>
-                    <a className="contact" href="https://www.linkedin.com/in/cashew-agnoletti-442910165">
+                    <a className="contact" href="https://www.linkedin.com/in/cashew-agnoletti">
                         <FontAwesomeIcon icon={faLinkedin} /> Linkedin</a>
                     <a className="contact" href="mailto:danieagnolett@gmail.com">
                         <FontAwesomeIcon icon={faEnvelope} /> Email</a>
