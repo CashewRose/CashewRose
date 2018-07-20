@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Footer from './Footer';
-import HomeHeader from './HomeHeader';
-import About from './About/AboutMe';
+import Footer from './Footer/Footer';
+import HomeHeader from './Header/HomeHeader';
 import SelfCard from './About/MyselfInfo';
 import Portfolio from '../Portfolio/Portfolio';
 

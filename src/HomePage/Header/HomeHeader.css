@@ -61,3 +61,20 @@
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
+@media only screen and (max-width: 800px) {
+  
+  #typewriter:before{
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Anonymous Pro', monospace;
+  }
+  
+  
+  #typewriter:after{
+    content: none;
+    margin-left: 0px;
+    font-family: 'Anonymous Pro', monospace; 
+    animation: none;
+  }
+}

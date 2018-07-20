@@ -3,7 +3,8 @@ div.cards{
     padding: 5px;
     text-align: center;
     margin: auto;
-    margin-bottom: 20px 
+    margin-bottom: 20px;
+    border-radius: 10px
 }
 
 div.cards:hover{
@@ -21,6 +22,10 @@ div.cards a {
     text-decoration: none
 }
 
+div.cards h3 {
+    font-size: 25px;
+}
+
 #Portfolio {
     background: darkcyan;
     height: 60px;
@@ -32,8 +37,20 @@ div.cards a {
     color: lightpink
 }
 
+p.mobileButton {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
     div.cards{
-        width:100%
+        width:90%;
+        padding: 15px;
+        box-shadow: 7px 10px 20px grey;
+        background-color: lightcyan;
+    }
+
+    p.mobileButton {
+        display: block;
+        font-size: 40px
     }
 }
