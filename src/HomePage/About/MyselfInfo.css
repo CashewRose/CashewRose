@@ -6,7 +6,7 @@ div.AboutCard {
     font-family: fantasy
 }
 
-img.me {
+.me {
     display: block;
     width: 100%;
     position: relative;
@@ -14,11 +14,16 @@ img.me {
     border-radius: 13px;
 }
 
+.me:hover {
+
+
+}
+
 a {
     display: inline-block;
 }
 a.contact{
-    padding: 10px 7.5px 0px 7.5px
+    padding: 10px 6px 0px 6px
 }
 
 a:visited {
