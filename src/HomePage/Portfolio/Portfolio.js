@@ -26,7 +26,7 @@ class Portfolio extends Component {
                   <h3>{card.title}</h3>
                   <img className="card" src={card.image}/>
                   <p className="mobileButton">Click Here To Visit My Site!</p>
-                  <p>{card.about}</p>
+                  <p className='about'>{card.about}</p>
                 </a>
               </div>
             ))}

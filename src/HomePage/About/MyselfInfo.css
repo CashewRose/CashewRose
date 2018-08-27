@@ -3,7 +3,7 @@ div.AboutCard {
     padding-left: 30px;
     float: right;
     padding: 30px 20px 10px 30px;
-    font-family: 'Anonymous Pro', monospace; 
+    font-family: 'Playfair Display', serif;; 
 }
 
 .me {
@@ -44,7 +44,7 @@ a:hover{
 div.Contain {
     clear:both;
     overflow:hidden;
-    font-family: cursive;
+    font-family: 'Playfair Display', serif; ;
     font-weight: 900;
     font-size: 20px;
 }

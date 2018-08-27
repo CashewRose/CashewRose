@@ -1,13 +1,15 @@
 div.cards{
+    display: block;
+    max-height: 550px;
     width: 45%;
     padding: 5px;
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: 'Playfair Display', serif;;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 div.cards:hover{
@@ -16,44 +18,56 @@ div.cards:hover{
 }
 
 img.card{
-    width: 275px;
     display: block;
+    width: 200px;
     margin: auto
 }
 
 div.cards a {
-    text-decoration: none
+    text-decoration: none;
+    color:black
 }
 
-div.cards h3 {
-    font-size: 24px;
+h3, h2 {
+    font-size: 32px;
     font-family: 'Anonymous Pro', monospace; 
+    font-style: italic;
+    margin: 16px;
 }
 
 #Portfolio {
-    background: darkcyan;
-    height: 60px;
-    font-size: 50px;
+    background: lightblue;
+    height: 56px;
+    font-size: 48px;
     text-align: right;
-    padding-right: 20px;
-    margin: 20px 0px;
-    color: lightpink
+    padding-top: 8px;
+    padding-right: 8px;
+    border-top: 8px solid black;
+    color: palevioletred;
+    margin: 0;
+    margin-bottom: 16px
 }
 
 p.mobileButton {
     display: none;
 }
 
+
 @media only screen and (max-width: 800px) {
     div.cards{
+        display: block;
         width:90%;
         padding: 15px;
         box-shadow: 7px 10px 20px grey;
         background-color: lightcyan;
+        font-size: 3vw
     }
 
     p.mobileButton {
         display: block;
-        font-size: 40px
     }
+    img.card{
+        width:150px
+    }
+
 }
