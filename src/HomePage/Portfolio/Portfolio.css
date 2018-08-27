@@ -7,7 +7,7 @@ div.cards{
     margin: auto;
     margin-bottom: 20px;
     border-radius: 10px;
-    font-family: 'Playfair Display', serif;;
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-size: 1.5vw;
 }
@@ -29,13 +29,14 @@ div.cards a {
 }
 
 h3, h2 {
-    font-size: 32px;
-    font-family: 'Anonymous Pro', monospace; 
+    font-size: 36px;
+    font-family: 'Berkshire Swash', cursive; 
     font-style: italic;
     margin: 16px;
 }
 
 #Portfolio {
+    font-family: 'Anonymous Pro', monospace;
     background: lightblue;
     height: 56px;
     font-size: 48px;
@@ -66,6 +67,7 @@ p.mobileButton {
     p.mobileButton {
         display: block;
     }
+
     img.card{
         width:150px
     }
