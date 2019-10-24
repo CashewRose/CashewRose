@@ -6,7 +6,7 @@ This project is a github version of my personal portfolio website. My website's 
 
 Currently the website is live and can be visited at:
 ```
-http://personalcashewsite.s3-website-us-east-1.amazonaws.com/
+http://cashewrose.com/
 ```
 
 This project is built with React. 
